@@ -4,6 +4,7 @@ YOLOv8 Dataset Preparation and Helmet Detection using YOLOv8
 This project implements a helmet detection system using the YOLOv8 object detection model. It is designed to detect helmets and heads in images, with a focus on balancing the dataset and training the model for optimal performance.
 
 Table of Contents
+
 1.Overview
 
 2.Features
