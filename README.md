@@ -38,13 +38,15 @@ Usage
 
 Dataset Preparation
 
-1.Upload your dataset in a ZIP file.
+1.Download the dataset from this link. https://public.roboflow.com/ds/shQKtHX4hy?key=w9z0Cla9CR
 
-2.Use the upload_and_extract_zip_colab function to extract and organize the dataset:
+2.Upload your dataset in a ZIP file.
+
+3.Use the upload_and_extract_zip_colab function to extract and organize the dataset:
 
 dataset_path = upload_and_extract_zip_colab("/content/dataset")
 
-3.Update the YAML configuration file with the correct paths and class names:
+4.Update the YAML configuration file with the correct paths and class names:
 
 update_yaml("my_data.yaml", train_images_path, val_images_path, test_images_path, ["head", "helmet"])
 
